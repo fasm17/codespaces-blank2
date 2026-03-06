@@ -1,89 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mim</title>
+<meta charset="UTF-8">
+<title>Surpresa</title>
 
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
+<style>
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #111;
+    color: white;
+}
 
-        header{
-            background: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 30px;
-        }
+button{
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+}
 
-        .container{
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
+button:hover{
+    background-color: #cc0000;
+}
+</style>
 
-        .card{
-            background: white;
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-        }
+<script>
+function surpresa() {
+    window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+}
+</script>
 
-        h2{
-            color: #333;
-        }
-
-        footer{
-            text-align: center;
-            padding: 20px;
-            margin-top: 20px;
-            background: #333;
-            color: white;
-        }
-    </style>
 </head>
 
 <body>
 
-<header>
-    <h1>Meu Site Pessoal</h1>
-    <p>Bem-vindo ao meu espaço na internet!</p>
-</header>
+<h1>Clique no botão para uma surpresa</h1>
 
-<div class="container">
-
-    <div class="card">
-        <h2>Sobre Mim</h2>
-        <p>Olá! Meu nome é <b>Seu Nome</b>.  
-        Aqui você pode escrever um pouco sobre você, sua história, interesses e objetivos.</p>
-    </div>
-
-    <div class="card">
-        <h2>Hobbies</h2>
-        <ul>
-            <li>🎮 Jogar</li>
-            <li>🎵 Ouvir música</li>
-            <li>💻 Programação</li>
-            <li>📚 Aprender coisas novas</li>
-        </ul>
-    </div>
-
-    <div class="card">
-        <h2>Contato</h2>
-        <p>Email: seuemail@email.com</p>
-        <p>Instagram: @seuusuario</p>
-    </div>
-
-</div>
-
-<footer>
-    <p>© 2026 - Meu Site Pessoal</p>
-</footer>
+<button onclick="surpresa()">Clique aqui</button>
 
 </body>
 </html>
